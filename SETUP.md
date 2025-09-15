@@ -39,23 +39,9 @@ This guide covers the setup and configuration of authentication, admin panel, co
 4. Register your app
 5. Copy the configuration object
 
-### 4. Configure Environment
+### 4. Environment and Backend
 
-1. Create `src/firebase/env.ts` file:
-
-```typescript
-export const firebaseConfig = {
-  apiKey: "your-api-key",
-  authDomain: "your-project.firebaseapp.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "your-app-id"
-};
-```
-
-2. Update the configuration with your actual Firebase values
-3. The `env.ts` file is already gitignored for security
+This project no longer uses Firebase. Contact form submissions are stored locally in the browser (localStorage) and shown in the UI for demo purposes. No cloud configuration is required.
 
 ## 📧 Contact Form Setup
 

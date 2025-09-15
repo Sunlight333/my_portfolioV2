@@ -15,8 +15,7 @@ import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import Admin from "./pages/Admin";
-import Auth from "./pages/Auth";
+// Removed Auth/Admin routes (Firebase removed)
 
 const queryClient = new QueryClient();
 
@@ -35,8 +34,6 @@ const App = () => (
               <Route path="/projects" element={<Projects />} />
               <Route path="/resume" element={<Resume />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/admin" element={<Admin />} />
-              <Route path="/auth" element={<Auth />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </AnimatePresence>
