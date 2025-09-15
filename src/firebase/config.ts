@@ -2,7 +2,7 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
-import { firebaseConfig } from './env';
+import { firebaseConfig } from './env.ts';
 
 console.log("=== FIREBASE CONFIG LOADING ===");
 console.log("Successfully loaded Firebase config from env.ts");
