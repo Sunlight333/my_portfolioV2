@@ -2,7 +2,7 @@ import { ReactNode, useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Mail } from "lucide-react";
 import ScrollToTop from "./ScrollToTop";
 import ParticleBackground from "./ParticleBackground";
 
@@ -71,10 +71,10 @@ export const Layout = ({ children }: LayoutProps) => {
               </p>
             </div>
             <div className="flex flex-col items-center md:items-end">
-              <p className="text-foreground font-medium mb-3">Connect with me</p>
+              <p className="text-foreground font-medium mb-3">Connect</p>
               <div className="flex space-x-4">
                 <motion.a
-                  href="https://github.com/oxBinaryBrain/"
+                  href="https://github.com/Sunlight333"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
@@ -85,29 +85,7 @@ export const Layout = ({ children }: LayoutProps) => {
                   <Github className="h-5 w-5" />
                 </motion.a>
                 <motion.a
-                  href="https://linkedin.com/in/wendachye"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.95 }}
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin className="h-5 w-5" />
-                </motion.a>
-                <motion.a
-                  href="https://linkedin.com/in/wendachye"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.95 }}
-                  aria-label="Twitter"
-                >
-                  <Twitter className="h-5 w-5" />
-                </motion.a>
-                <motion.a
-                  href="mailto:ud4yg@yandex.com"
+                  href="mailto:kw963606@gmail.com"
                   className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}

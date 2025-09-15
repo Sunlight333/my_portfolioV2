@@ -1,20 +1,14 @@
 
 import { motion } from "framer-motion";
-import { Mail, MapPin, Linkedin, Github, Twitter } from "lucide-react";
+import { Mail, Github } from "lucide-react";
 
 const ContactInfo = () => {
   const contactInfo = [
     {
       icon: <Mail className="h-5 w-5 text-brand-purple" />,
       title: "Email",
-      details: "wendschye@email.com",
-      link: "mailto:wendschye@email.com",
-    },
-    {
-      icon: <MapPin className="h-5 w-5 text-brand-purple" />,
-      title: "Location",
-      details: "Singapore · Remote-friendly",
-      link: "https://maps.google.com/?q=Singapore",
+      details: "kw963606@gmail.com",
+      link: "mailto:kw963606@gmail.com",
     },
   ];
 
@@ -23,11 +17,6 @@ const ContactInfo = () => {
       icon: <Github className="h-5 w-5" />,
       name: "GitHub",
       url: "https://github.com/Sunlight333",
-    },
-    {
-      icon: <Linkedin className="h-5 w-5" />,
-      name: "LinkedIn",
-      url: "https://linkedin.com/in/wendachye",
     },
   ];
 
@@ -64,7 +53,7 @@ const ContactInfo = () => {
         </div>
         
         <div>
-          <h3 className="font-medium mb-3 text-brand-purple">Social Media</h3>
+          <h3 className="font-medium mb-3 text-brand-purple">Social</h3>
           <div className="flex gap-3">
             {socialLinks.map((social, index) => (
               <motion.a
